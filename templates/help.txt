@@ -1,0 +1,14 @@
+gcloud is a tool for managing Google Cloud services and resources.
+
+For details, see https://cloud.google.com/sdk/docs.
+
+Usage:
+
+    gcloud <command> [arguments]
+
+The commands are:
+{{range .Commands}}
+    {{.Name | printf "%-10s" }}{{range .WrappedShort}}
+        {{.}}
+    {{- end}}
+{{end}}

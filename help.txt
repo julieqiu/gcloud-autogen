@@ -1,0 +1,9 @@
+mycommand - A brief description of what this command does.
+
+Usage:
+  mycommand [flags] [arguments]
+
+Examples:
+  mycommand -flag value
+  mycommand arg1 arg2
+
